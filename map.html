@@ -36,11 +36,11 @@
             preferCanvas: false,
         }
     );
-    var tile_layer_91eed244d3b17b2d66fa74e0d579b340 = L.tileLayer(
+    var tilelayer = L.tileLayer(
         "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
         {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
     );
-    tile_layer_91eed244d3b17b2d66fa74e0d579b340.addTo(njmap);
+    tilelayer.addTo(njmap);
 
     var marker_1b5a0bf9dfd5fb62f9037e883de57a19 = L.marker(
         [40.2021866428643, -74.775223194595],
