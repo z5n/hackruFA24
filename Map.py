@@ -1,17 +1,13 @@
-import folium
-import pandas as pd
-import geopandas as gpd
-
 import csv
-
+import folium
+import geopandas as gpd
 import json
+import pandas as pd
 
 # Load the GeoJSON file to examine its structure
 file_path = 'maps/northeasterncorridor.geojson'
 with open(file_path, 'r') as geojson_file:
     geojson_data = json.load(geojson_file)
-
-
 
 # Function to extract coordinates and save them as a CSV
 def extract_coordinates_to_csv(geojson_data, output_csv_path):
