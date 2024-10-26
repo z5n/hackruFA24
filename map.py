@@ -50,6 +50,6 @@ for index, row in data.iterrows():
         location=[row['latitude'], row['longitude']], 
     ).add_to(my_map)
 
-    if index == 100:
+    if index == 1:
         break
-my_map.save("map.html")
+# my_map.save("map.html")
