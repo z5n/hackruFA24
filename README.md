@@ -10,5 +10,14 @@ This project visualizes NJ TRANSIT data to map one of the largest transportation
 - **Interactive Map**: A detailed map showing NJ TRANSIT’s rail and light rail stations, bus terminals, and key stops across New Jersey.
 - **Geospatial Data Display**: Coordinates are mapped to visualize transit points, assisting users with navigation and transit planning.
 # How to Run the Project 
-- **Install Dependencies**: Follow instructions to install required libraries, e.g., pip install -r requirements.txt
-- **Launch the Application**: Run map.py to start the server and load the map interface.
+- **Install Dependencies**: Follow instructions to install required libraries
+```$ gpip install -r requirements.txt```
+- **Configure the config file with your dataset**: In this case, our dataset link is `https://www.njtransit.com/rail_data.zip`.
+- **Run the `gtfs-to-html` command-line utility**: Install `gtfs-to-html` from [npm](https://npmjs.org/):
+```$ gnpm install gtfs-to-html -g```
+– **Generate the map**:
+```$ gtfs-to-html```
+- **Run the utility file to drop the unused data from the working HTML file, and reformat the file structure**:
+``$ python utils/reformat.py``
+# Credits
+Thanks to [gtfs-to-html](https://github.com/BlinkTagInc/gtfs-to-html), their work allowed us to visualize our dataset.
