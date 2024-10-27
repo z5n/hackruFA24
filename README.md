@@ -1,27 +1,24 @@
 # HackRU Fall 24
-Through this project, we aim to demonstrate the power of data visualization in improving transit accessibility and route planning for NJ TRANSIT riders.
+Through this project, we aim to create an interactive map tool purposed for displaying the degradation of each of NJ TRANSIT’s railways, giving users a tool for understanding where maintenance is needed.
 # Overview
-This project visualizes NJ TRANSIT data to map one of the largest transportation systems in the United States, focusing on geospatial data for rail lines, light rail lines, and bus routes throughout New Jersey. NJ TRANSIT operates:
+This project visualizes NJ TRANSIT data to map one of the largest transportation systems in the United States, focusing on geospatial data for rail lines. NJ TRANSIT operates:
 - 11 commuter rail lines, 3 light rail lines, and 253 bus routes.
 - A network of rail cars, light rail cars, and buses, connecting over 133 million passengers annually.
-
-- Using NJ TRANSIT’s open datasets, our map interface displays key transit points, such as rail and light rail stations or notable bus stops, giving users a tool for exploring transit access and planning routes where data is available.
 ### Inspiration
-Our team was inspired by NJ TRANSIT’s commitment to innovation and their open data challenge at HackRU Fall 2024. We wanted to create an accessible tool that helps riders and planners visualize transit routes across New Jersey, making public transportation more understandable and accessible for all.
+Our team was inspired by NJ TRANSIT’s commitment to innovation and their open data challenge at HackRU Fall 2024. We wanted to create an accessible tool that helps the NJ Transit team understand what part of their railways need, or will be needing maintenance.
 ### What We Learned
 Working on this project taught us how to handle geospatial data, design interactive maps, and process large datasets for meaningful visualizations. We gained experience in working with map libraries and improved our skills in front-end design for intuitive user interfaces.
 ### How We Built the Project
 The project was built using a combination of:
 - **Python** for backend processing and handling data from NJ TRANSIT’s dataset.
-- **JavaScript and Leaflet.js** to create an interactive map where users can explore transit routes, stations, and points of interest.
+- **JavaScript and Leaflet.js** to create an interactive map where users can explore railways, and view the estimated health of each railway.
 - **HTML/CSS** for structuring and styling the interface, making it visually engaging and easy to navigate.
 - **gtfs-to-html** for converting NJ Transit's provided railway dataset to HTML, allowing for a visualization of their railways on a map.
-
 ### Challenges We Faced
 1. **Data Cleaning**: Integrating NJ TRANSIT’s data was challenging due to inconsistencies and the need for precise geospatial alignment.
 2. **Map Responsiveness**: Ensuring the map looked good on various devices required multiple adjustments to CSS and JavaScript for smooth interactivity.
 # Features
-- **Interactive Map**: A detailed map showing NJ TRANSIT’s rail and light rail stations, bus terminals, and key stops across New Jersey.
+- **Interactive Map**: A detailed map showing NJ TRANSIT’s railways, and key stops across New Jersey.
 - **Geospatial Data Display**: Coordinates are mapped to visualize transit points, assisting users with navigation and transit planning.
 # How to Run the Project 
 - **Install Dependencies**: Install the required packages.
