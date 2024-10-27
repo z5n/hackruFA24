@@ -19,7 +19,7 @@ The project was built using a combination of:
 2. **Map Responsiveness**: Ensuring the map looked good on various devices required multiple adjustments to CSS and JavaScript for smooth interactivity.
 # Features
 - **Interactive Map**: A detailed map showing NJ TRANSIT’s railways, and key stops across New Jersey.
-- **Geospatial Data Display**: Coordinates are mapped to visualize transit points, assisting users with navigation and transit planning.
+- **Geospatial Data Display**: Coordinates are mapped to visualize transit points, for better understanding of where along the railway maintenance is needed.
 # How to Run the Project 
 - **Install Dependencies**: Install the required packages.
 ```$ pip install -r requirements.txt```
