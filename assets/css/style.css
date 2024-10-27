@@ -1,8 +1,19 @@
 html, body {
-    width: 100%;height: 100%;margin: 0;padding: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 #map {
-    position:absolute;top:0;bottom:0;right:0;left:0;
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    padding: 10px;
 }
 
 #njmap {
@@ -11,6 +22,7 @@ html, body {
     height: 100.0%;
     left: 0.0%;
     top: 0.0%;
+    margin: 0 auto;
 }
 .leaflet-container { 
     font-size: 1rem;
