@@ -1,0 +1,16 @@
+{
+  "agencies": [
+    {
+      "agencyKey": "njtransit",
+      "url": "https://www.njtransit.com/rail_data.zip"
+    }
+  ],
+  "linkStopUrls": true,
+  "menuType": "radio",
+  "noHead": false,
+  "outputFormat": "html",
+  "showMap": true,
+  "showOnlyTimepoint": true,
+  "useParentStation": true,
+  "verbose": true
+}
