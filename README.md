@@ -1,4 +1,5 @@
 # HackRU Fall 24
+Through this project, we aim to demonstrate the power of data visualization in improving transit accessibility and route planning for NJ TRANSIT riders.
 # Overview
 This project visualizes NJ TRANSIT data to map one of the largest transportation systems in the United States, focusing on geospatial data for rail lines, light rail lines, and bus routes throughout New Jersey. NJ TRANSIT operates:
 - 11 commuter rail lines, 3 light rail lines, and 253 bus routes.
