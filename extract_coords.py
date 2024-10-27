@@ -5,7 +5,7 @@ import json
 import pandas as pd
 
 # Load the GeoJSON file to examine its structure
-file_path = 'maps/northeasterncorridor.geojson'
+file_path = 'maps/northeast_corridor.geojson'
 with open(file_path, 'r') as geojson_file:
     geojson_data = json.load(geojson_file)
 
